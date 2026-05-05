@@ -10,7 +10,7 @@
 
 ### 效果预览
 
-![NJUST 本科毕设封面预览](https://github.com/timigogo/njust-bachelor-thesis/raw/main/image/README/%E5%B0%81%E9%9D%A2.png)
+![NJUST 本科毕设封面预览](https://github.com/timigogo/njust-bachelor-thesis/raw/main/image/README/cover.png)
 
 **[📥 点击直接下载完整参考 PDF](https://github.com/timigogo/njust-bachelor-thesis/raw/main/%E5%8F%82%E8%80%83PDF/main.pdf)**
 
