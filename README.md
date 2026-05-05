@@ -8,7 +8,11 @@
 
 目前模板与官方本科毕设 Word 模板（2026年版本）的格式相似度已经达到约 80%，可以作为本科毕业设计（论文）排版使用。
 
-**[点击此处查看模板生成的参考 PDF 预览](https://github.com/timigogo/njust-bachelor-thesis/blob/main/%E5%8F%82%E8%80%83PDF/main.pdf)**
+### 效果预览
+
+![NJUST 本科毕设封面预览](https://github.com/timigogo/njust-bachelor-thesis/raw/main/image/README/%E5%B0%81%E9%9D%A2.png)
+
+**[📥 点击直接下载完整参考 PDF](https://github.com/timigogo/njust-bachelor-thesis/raw/main/%E5%8F%82%E8%80%83PDF/main.pdf)**
 
 > 说明：本模板不是南京理工大学官方 LaTeX 模板，仅为个人基于官方 Word 模板整理和调校的版本。提交前请自行对照学院或学校当年的具体格式要求检查。
 
