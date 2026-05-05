@@ -37,7 +37,7 @@ https://bysj.njust.edu.cn/NewsDetail.aspx?ConfigurationID=n5IuBXqj3nE%3d&HomePag
 感谢原项目作者和相关前序模板的工作。本模板修改自：
 
 1. [pasteller/njusttt](https://github.com/pasteller/njusttt)
-2. njustThesis：https://github.com/jiec827/njustThesis
+2. [jiec827/njustThesis](https://github.com/jiec827/njustThesis)
 
 希望这个模板能对毕业季正在写本科毕设的同学有用。
 
