@@ -8,7 +8,7 @@
 
 https://bysj.njust.edu.cn/NewsDetail.aspx?ConfigurationID=n5IuBXqj3nE%3d&HomePageManagementID=z0wIF8W1a4I%3d
 
-目前模板与官方本科毕设 Word 模板的格式相似度已经达到约 80%，可以作为本科毕业设计（论文）排版使用。
+目前模板与官方本科毕设 Word 模板（2026年版本）的格式相似度已经达到约 80%，可以作为本科毕业设计（论文）排版使用。
 
 > 说明：本模板不是南京理工大学官方 LaTeX 模板，仅为个人基于官方 Word 模板整理和调校的版本。提交前请自行对照学院或学校当年的具体格式要求检查。
 
