@@ -1,6 +1,22 @@
 # NJUST 本科毕业设计（论文）LaTeX 模板
 
-这是一个面向南京理工大学本科毕业设计（论文）报告的 LaTeX 模板。本模板基于原项目 [pasteller/njusttt](https://github.com/pasteller/njusttt) 修改而来。原项目主要面向南京硕博学位论文；本仓库在其基础上，参考南京理工大学官方（2026年版本）的格式相似度已说明：本模板不是南京理工大学官方 LaTeX 模板，仅为个人基于译境
+这是一个面向南京理工大学本科毕业设计（论文）报告的 LaTeX 模板。
+
+本模板基于原项目 [pasteller/njusttt](https://github.com/pasteller/njusttt) 修改而来。原项目主要面向南京理工大学硕博学位论文；本仓库在其基础上，参考南京理工大学官方本科毕业设计 Word 模板进行了本科毕设格式适配。
+
+官方 Word 模板下载页面：[南京理工大学教务处 - 毕业设计（论文）报告撰写格式](https://bysj.njust.edu.cn/NewsDetail.aspx?ConfigurationID=n5IuBXqj3nE%3d&HomePageManagementID=z0wIF8W1a4I%3d)
+
+目前模板与官方本科毕设 Word 模板（2026年版本）的格式相似度已经达到约 80%，可以作为本科毕业设计（论文）排版使用。
+
+### 效果预览
+
+![NJUST 本科毕设封面预览](https://github.com/timigogo/njust-bachelor-thesis/raw/main/image/README/cover.png)
+
+**[📥 点击直接下载完整参考 PDF](https://github.com/timigogo/njust-bachelor-thesis/raw/main/%E5%8F%82%E8%80%83PDF/main.pdf)**
+
+> 说明：本模板不是南京理工大学官方 LaTeX 模板，仅为个人基于官方 Word 模板整理和调校的版本。提交前请自行对照学院或学校当年的具体格式要求检查。
+
+## 已测试编译环境
 
 1. Windows + MiKTeX + XeLaTeX
 2. Windows + TeX Live + XeLaTeX
