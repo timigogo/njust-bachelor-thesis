@@ -209,7 +209,7 @@
         %% English Title (闂備浇顕х换鎰崲閹邦喗宕查悗锝庡墰閸楁岸鏌熺紒銏犳灍闁哄拋鍓熼幃妤€鈽夊鍏碱棇mes New Roman闂傚倷鐒︾€笛呯矙閹达附鍤愭い鏍ㄧ⊕閸欏繘鏌ｉ幇鐗堟锭闁?
         {\rmbf\zihao{-1} \NJUST@value@englishtitle}
 
-        \par\vspace{3.5cm}
+        \par\vspace{1.5cm}
         
         %% author
         {\rmit\zihao{-2} By} \\
@@ -225,14 +225,11 @@
                 {\rmn\zihao{-2} \ \& \ Researcher \ }{\rmbfit\zihao{-2} \NJUST@value@englishcoadvisor}
             \fi
         }
-        
-        \par\vspace{8.0cm}
-        
+
         %% school & date
-        {\rmn\zihao{-2} \NJUST@value@englishinstitute}
-        \par\vspace{0.5cm}
-        {\rmn\zihao{-2} \NJUST@value@englishdate}
-        \vskip 40pt
+        \begin{tikzpicture}[remember picture,overlay]
+            \node[anchor=south, inner sep=0pt, align=center, font=\rmn\zihao{-2}] at ($(current page.south)+(0,5.8cm)$) {\NJUST@value@englishinstitute\\[0.5cm]\NJUST@value@englishdate};
+        \end{tikzpicture}
     \end{center}
     \clearpage
 }
@@ -265,7 +262,7 @@
             \node[anchor=north west, inner sep=0pt, font=\kaibf\zihao{-2}] at (njust-coadvisor-line) {\hspace{0.5em}\NJUST@value@coadvisor\hspace{2em}\NJUST@value@coadvisortitle};
         \fi
 
-        \node[anchor=south, inner sep=0pt, align=center, font=\songbf\zihao{-2}] at ($(current page.south)+(0,2.85cm)$) {\NJUST@value@school\\[0.5cm]\NJUST@value@submitdate};
+        \node[anchor=south, inner sep=0pt, align=center, font=\songbf\zihao{-2}] at ($(current page.south)+(0,3.85cm)$) {{\ziju{0.3}\NJUST@value@school}\\[0.5cm]\NJUST@value@submitdate};
     \end{tikzpicture}
     \clearpage
     \endgroup
@@ -278,7 +275,7 @@
     \cleardoublepage
     \thispagestyle{empty}
     \begin{center}
-        \vspace*{-35.1pt}
+        \vspace*{-12.3pt}
         \parbox{\textwidth}{\centering\bf\songbf\zihao{3}\NJUST@label@statement}
         \vskip 0.5cm
         \parbox{\textwidth}{\songti\fontsize{14bp}{31bp}\selectfont\setlength{\parindent}{2em}\setlength{\parskip}{0pt}\indent \NJUST@value@statement}
@@ -301,14 +298,14 @@
 %%  make abstract
 %% abstract
 \newenvironment{abstract}{
-{\ctexset{chapter={format = {\centering\songbf\zihao{3}}, beforeskip={48.81bp}, afterskip={18bp}}} \Nchapter{\NJUST@label@abstract}}
+{\ctexset{chapter={format = {\centering\songbf\zihao{3}}, beforeskip={48.81bp}, afterskip={24bp}}} \Nchapter{\NJUST@label@abstract}}
 \markboth{\NJUST@label@abstract}{}
-\linespread{1.0}\fontsize{12bp}{21bp}\selectfont
+\linespread{1.0}\fontsize{12bp}{22bp}\selectfont
 \par % 缂傚倷鑳堕搹搴ㄥ矗鎼淬劌绐楅柡鍥╁У瀹曞弶鎱ㄥΟ鍧楀摵濠殿垰銈搁弻娑㈠箻濡も偓閹冲繘鎮楅銏♀拺婵懓娲ら悘顕€鏌涢悩鍐插鐎?
 }{}
 
 %% kewords
-\newcommand\keywords[1]{\vspace{2ex}\vspace{19.53bp}\noindent{\songbf\zihao{4} \NJUST@label@keywords}{\songti\zihao{-4} #1}}
+\newcommand\keywords[1]{\vspace{1.3cm}\noindent{\songbf\zihao{4} \NJUST@label@keywords}{\songti\zihao{-4} #1}}
 
 
 \fancypagestyle{abstractstyle}{
@@ -324,10 +321,16 @@
 %% Eng abstract
 \newenvironment{englishabstract}{
     \clearpage
-    {\ctexset{chapter={format = {\centering\rmbf\zihao{3}}, beforeskip={48.21bp}, afterskip={18bp}}} \Nchapter{\NJUST@label@englishabstract}}
+    {\ctexset{chapter={format = {\centering\rmbf\zihao{3}}, beforeskip={48.21bp}, afterskip={24bp}}} \Nchapter{\NJUST@label@englishabstract}}
     \thispagestyle{abstractstyle}
     \markboth{\NJUST@label@englishabstract}{}
-    \NJUST@bodyspacing
+    \linespread{1.0}\fontsize{12bp}{22bp}\selectfont
+    \spaceskip=0.36em plus 0.18em minus 0.08em
+    \hyphenpenalty=10000
+    \exhyphenpenalty=10000
+    \lefthyphenmin=62
+    \righthyphenmin=62
+    \hyphenchar\font=-1
     \par
 }{
     \clearpage
@@ -335,7 +338,7 @@
 
 
 %% Eng keywords
-\newcommand\englishkeywords[1]{\vspace{2ex}\vspace{25.53bp}\noindent{\rmbf\zihao{4} \NJUST@label@englishkeywords}{\rmn\zihao{-4} #1}}
+\newcommand\englishkeywords[1]{\vspace{2ex}\vspace{31.53bp}\noindent{\rmbf\zihao{4} \NJUST@label@englishkeywords}{\rmn\zihao{-4} #1}}
 
 
 
@@ -492,7 +495,7 @@
 \newenvironment{newbibliography}{
 \ctexset{chapter={format = {\centering\songbf\zihao{3}}, beforeskip={48.8bp}, afterskip={18bp}}}
 \NJUST@bodyspacing
-\renewcommand*{\bibfont}{\songti\zihao{-4}\linespread{1.0}\fontsize{12bp}{20bp}\selectfont}
+\renewcommand*{\bibfont}{\songti\zihao{-4}\linespread{1.0}\fontsize{12bp}{20bp}\selectfont\spaceskip=0.36em plus 0.18em minus 0.08em\hyphenpenalty=10000\exhyphenpenalty=10000\lefthyphenmin=62\righthyphenmin=62\hyphenchar\font=-1}
 \setlength{\bibhang}{0pt}
 \setlength{\biblabelsep}{16.06pt}
 \setlength{\bibitemsep}{0pt}
