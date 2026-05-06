@@ -20,7 +20,7 @@
 \sloppy % 闂傚倷绀侀幉锟犲垂閻㈠灚宕查柟鎵閸庡秵銇勯弽銊с€掗柍缁樻閺屾洟宕煎┑鍥┿偐婵炲鍘ч崐鍧楀箖濡ゅ懏顥堟繛鎴炴皑妤旂紓鍌氬€哥粔鎾偋閹炬剚鍤曟い鏇楀亾鐎规洘绮嶉幏鍛村捶椤撶喐顔忛梻浣哄劦閸撴繄鏁幒妤€绠犻幖绮瑰灳閻斿摜绡€闁告洦鍓欓蹇涙⒑閹稿孩纾甸柛瀣崌閺?
 
 %% 闂備浇宕甸崑鐐电矙閹达附鍎楀ù锝堟閻滅粯绻涢幋鐐寸殤濞戞挸绉归弻銊モ槈濡警浠鹃梺绋匡功閸嬨倝寮婚妸銉㈡婵炲棙甯掗ˉ婵嬫⒑娴兼瑧鎮奸柛瀣尵缁瑦绻濋崘銊х獮婵犵數濮撮崯浼村Χ婵傚憡鐓熼幖娣€ゅ鎰叏濡濮傞挊鐔封攽閻樺弶鎼愮痪鎯х秺閺屻倛銇愰幒鎴滃枈闂佽　鍋撳ù鐘差儐閸?(婵犵數鍋犻幓顏嗙礊閳ь剚绻涙径瀣鐎?bp 婵犵數鍋涢顓熸叏娴兼潙纾块弶鍫氭櫃閻掑﹥銇勯弴妤€浜鹃梺?Word 闂?1/72 闂傚倷娴囨竟鍫ヮ敋瑜嶉悾鐑筋敆閸曞灚鏅銈嗘尵婵挳藟?
-\newcommand{\NJUST@bodyspacing}{\linespread{1.0}\fontsize{12bp}{21bp}\selectfont}
+\newcommand{\NJUST@bodyspacing}{\linespread{1.0}\fontsize{12bp}{21bp}\selectfont\spaceskip=0.36em plus 0.18em minus 0.08em}
 \AtBeginDocument{\NJUST@bodyspacing} % 闂傚倷鑳堕…鍫㈡崲閸儱绀夌€光偓閸曨剙鍓冲銈嗗笂缁垛€炽€掗懜鍏哥箚妞ゆ牗渚楅崕銉╂煕濮橆剚鍠樻鐐寸墱閳ь剚绋掕摫闁抽攱甯￠弻?20 缂傚倷鑳堕崑鎾诲磿閹惰棄绠犻柟鐐湽閳ь兛绶氶獮瀣偐閸愯尙锛?
 
 
@@ -33,13 +33,13 @@
 \usetikzlibrary{calc}
 \RequirePackage[
     a4paper,
-    top=30mm,
+    top=30mm,      % body top margin
     bottom=24mm,
     left=25mm,
     right=25mm,
     headheight=15pt,
-    headsep=10mm, % 30mm - 20mm (header dist) = 10mm
-    footskip=4mm  % 24mm - 20mm (footer dist) = 4mm
+    headsep=5.5mm, % header rule is 24.5mm from page top: 30mm - 5.5mm
+    footskip=0mm  % 24mm - 24mm (footer dist) = 0mm
 ]{geometry}
 
 
@@ -75,7 +75,7 @@
     \fancyhead[RE]{\songti\zihao{-5}\NJUST@label@thesis}
     \fancyfoot[RO]{\songti\zihao{-5}\thepage}
     \fancyfoot[LE]{\songti\zihao{-5}\thepage}
-    \renewcommand{\headrulewidth}{0.4pt} % 缂傚倷鑳堕搹搴ㄥ矗鎼淬劌绐楅柡鍥╁У瀹?plain 闂傚倷绀侀幖顐ょ矓閹绢喖搴婇柤纰卞墯椤洟鏌嶉埡浣告殶闁崇粯娲熼弻锝夊棘閹稿骸鏆堢紓浣哄У鐢帡鈥旈崘顔嘉ч柛銉ｅ妽濮ｅ嫬鈹戦悩顐壕婵炶揪缍€閸婁粙鎮㈢喊杈ㄦ櫆闂佺硶鍓濋〃鍡涙偪?
+    \renewcommand{\headrulewidth}{0.5bp} % 缂傚倷鑳堕搹搴ㄥ矗鎼淬劌绐楅柡鍥╁У瀹?plain 闂傚倷绀侀幖顐ょ矓閹绢喖搴婇柤纰卞墯椤洟鏌嶉埡浣告殶闁崇粯娲熼弻锝夊棘閹稿骸鏆堢紓浣哄У鐢帡鈥旈崘顔嘉ч柛銉ｅ妽濮ｅ嫬鈹戦悩顐壕婵炶揪缍€閸婁粙鎮㈢喊杈ㄦ櫆闂佺硶鍓濋〃鍡涙偪?
 }
 \pagestyle{fancy}
 \fancyhf{}
@@ -92,7 +92,7 @@
         \markboth{#1}{}%
     \fi
 }
-\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{1bp}
 \let\cleardoublepage\clearpage % 闂傚倷绀侀幖顐ょ矓閸洍鈧箓宕奸姀銏㈠婵°倧绲介崯顖炲疾椤掍焦鍙忔慨妤€妫楁晶鐗堢箾閸喐銇濋柡宀€鍠撻崰濠偽熸潪鏉款棜闂傚倷绀侀幖顐︽偋閸℃蛋鍥敍濮樼厧鏅犻梻渚囧墮缁夊绮堥崱娑欑厵妞ゆ牗绋戦ˉ瀣煕鎼淬垻鍙€鐎殿喖鐖奸幃婊堝幢濡も偓椤晛顪冮妶鍐ㄥ闁活厼鍊搁锝夘敃閿濆拋鍤ゅ┑鐑囩秵閸忔﹢宕戦幘鏉戠窞闁归偊鍘奸崜顓㈡⒑閸涘﹥澶勯柛鎾寸懇閹線鎮烽幊濠傜秺閹晠顢欑亸鏍т壕闁哄稁鍘奸弸渚€鏌涜箛姘汗闁崇粯妫冮弻褑绠涢幘纾嬬闂佸搫妫楀Λ婵嬪蓟濞戞鏃€鎷呴崷顓фК闂備焦鎮堕崝宀€鈧稈鏅犳俊?
 
 
@@ -316,7 +316,7 @@
     \fancyhead[RE]{\songti\zihao{-5}\NJUST@label@thesis}
     \fancyfoot[RO]{\songti\zihao{-5}\thepage}
     \fancyfoot[LE]{\songti\zihao{-5}\thepage}
-    \renewcommand{\headrulewidth}{0.4pt}
+    \renewcommand{\headrulewidth}{1bp}
 }
 %% Eng abstract
 \newenvironment{englishabstract}{

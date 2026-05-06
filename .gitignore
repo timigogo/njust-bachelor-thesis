@@ -16,6 +16,7 @@
 *.dvi
 *.xdv
 *.docx
+*-bbox.html
 *-converted-to.*
 # these rules might exclude image files for figures etc.
 # *.ps
